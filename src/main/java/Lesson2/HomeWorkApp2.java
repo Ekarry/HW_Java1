@@ -51,8 +51,8 @@ public class HomeWorkApp2 {
         }
     }
 
-    public static boolean checkYear(int i) {
-        if (i % 4 == 0 & i % 100 != 0 || i % 400 == 0) {
+    public static boolean checkYear(int year) {
+        if (year % 4 == 0 & year % 100 != 0 || year % 400 == 0) {
             return true;
         }
         return false;
